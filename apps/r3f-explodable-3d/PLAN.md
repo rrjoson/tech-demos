@@ -36,3 +36,8 @@ Ship a single-user explodable 3D learning UI: one object breaks into labeled par
 - Multi-model picker / URL deep-links
 - Cloudflare Pages path deploy
 - Automated Playwright visual tests (manual screenshot/video is the validation bar for this demo)
+
+## Implementation notes (this PR)
+- Procedural stylized **inline-4 engine** (block, crank, pistons, head, intake/exhaust, turbo, oil pan)
+- Plain CSS overlay (no shadcn) to keep the one-screen demo light
+- Explode via button + slider + Alt+horizontal drag; Html labels when exploded
